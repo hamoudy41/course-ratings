@@ -1,7 +1,7 @@
 {
   "name": "course-ratings",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://hamoudy41.github.io/course-ratings",
   "dependencies": {
     "react": "^16.6.3",
