@@ -1,9 +1,11 @@
 import React from 'react';
 import Course from './Course';
+import {HashRouter} from 'react-router-dom'
 
 const App = (props) => {
   return (
-    <div className="container" basename="/course-ratings">
+    <HashRouter basename="/course-ratings">
+    <div className="container" >
       {props.courses.map( course => 
         <Course
           {...course}
@@ -11,6 +13,7 @@ const App = (props) => {
         />      
       )}
     </div>
+    </HashRouter>
   );
 }
 
