@@ -3,7 +3,7 @@ import Course from './Course';
 
 const App = (props) => {
   return (
-    <div className="container">
+    <div className="container" basename="/course-ratings">
       {props.courses.map( course => 
         <Course
           {...course}
